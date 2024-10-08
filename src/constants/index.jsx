@@ -132,7 +132,7 @@ export const footer = {
     '(00) 1234-5678',
     'Rua Fictícia, 1234, Bairro Fictício, Cidade Fictícia - Estado Fictício',
   ],
-  copy: 'Copyright © 2023 ZenLek Finance. Todos os direitos reservados.',
+  copy: 'Copyright © 2025 ZenLek Finance. Todos os direitos reservados.',
   social: [
     { component: instagram, url: '#' },
     { component: twitter, url: '#' },
