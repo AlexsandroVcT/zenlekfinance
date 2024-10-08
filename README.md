@@ -1,4 +1,4 @@
-##💳 ZenLek Finance - A Nova Geração de Soluções Financeiras
+#💳 ZenLek Finance - A Nova Geração de Soluções Financeiras
 ZenLek Finance é uma fintech moderna e inovadora, projetada para fornecer soluções financeiras de maneira acessível, descomplicada e focada na experiência do cliente. Oferecemos uma ampla gama de serviços para simplificar e aprimorar sua vida financeira.
 
 🚀 O que as fintechs oferecem?
