@@ -30,7 +30,7 @@ export default function Login() {
           <button type="submit" className={styles.loginButton}>Entrar</button>
         </form>
         <p className={styles.registerText}>
-          Não tem uma conta? <Link href="/register">Cadastre-se</Link>
+        <p>Não tem uma conta? <Link href="/register">Cadastrar-se</Link></p>
         </p>
       </div>
     </div>
