@@ -1,0 +1,11 @@
+Model Information:
+* title:	Terra- Modello 3D
+* source:	https://sketchfab.com/3d-models/terra-modello-3d-35c211c6a4a64e468d0ac15d00b1cf0e
+* author:	rosaliarenda (https://sketchfab.com/rosaliarenda)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Terra- Modello 3D" (https://sketchfab.com/3d-models/terra-modello-3d-35c211c6a4a64e468d0ac15d00b1cf0e) by rosaliarenda (https://sketchfab.com/rosaliarenda) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
