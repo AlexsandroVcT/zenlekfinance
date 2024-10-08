@@ -10,6 +10,42 @@
     align-items: center;
     // position: fixed;
 
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        
+        li {
+          position: relative;
+          
+          a {
+            font-size: 1rem;
+            color: #ffffff; 
+            text-decoration: none;
+            transition: color 0.3s ease;
+            
+            &:hover {
+              color: #0e674b;
+            }
+            
+            &::after {
+              content: '';
+              position: absolute;
+              bottom: -2px;
+              left: 0;
+              width: 0;
+              height: 2px;
+              background-color: #0e674b; /* Cor de destaque */
+              transition: width 0.3s ease;
+            }
+            
+            &:hover::after {
+              width: 100%;
+            }
+          }
+        }
+    }
+
     .links{
         display: flex;
         gap: 2rem;
