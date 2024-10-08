@@ -18,6 +18,8 @@ export const navLinks = [
   { name: 'Diferenciais', url: '#resources' },
   { name: 'Programa de pontos', url: '#rewards' },
   { name: 'Depoimentos', url: '#testimonials' },
+  { name: 'Logar', url: '/login' },
+  { name: 'Cadastrar', url: '/register' },
 ];
 
 export const header = {

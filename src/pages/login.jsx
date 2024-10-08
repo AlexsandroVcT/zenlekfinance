@@ -1,24 +1,38 @@
 import styles from '@/styles/Login.module.scss';
 import Image from 'next/image';
-import logo from '../../public/LogoZenLekOFCF.png';
+import Link from 'next/link';
 
-const Login = () => {
+export default function Login() {
   return (
-    <div className={styles.loginContainer}>
-      <div className={styles.logoContainer}>
-        <Image src={logo} alt="ZenLek Finance" width={120} height={120} />
-        <h1>ZenLek Finance</h1>
-      </div>
-      <form className={styles.form}>
-        <input type="email" placeholder="Email" className={styles.input} />
-        <input type="password" placeholder="Senha" className={styles.input} />
-        <button type="submit" className={styles.button}>Login</button>
-      </form>
-      <div className={styles.register}>
-        <p>Não tem uma conta? <a href="/register">Cadastre-se</a></p>
+    <div className={styles.loginPage}>
+      <div className={styles.loginBox}>
+        <Image
+          src="/LogoZenLekOFCF.png"
+          alt="ZenLek Finance Logo"
+          width={100}
+          height={100}
+          className={styles.logo}
+        />
+        <h1>ZENLEK FINANCE</h1>
+        <p>Conta Virtual & Tesouraria Online</p>
+        <form>
+          <div className={styles.inputGroup}>
+            <label htmlFor="cpf">CPF</label>
+            <input type="text" id="cpf" placeholder="CPF" />
+          </div>
+          <div className={styles.inputGroup}>
+            <label htmlFor="password">Senha</label>
+            <input type="password" id="password" placeholder="Senha" />
+            <span className={styles.eyeIcon}>👁️</span>
+          </div>
+          <Link href="/forgot-password" className={styles.forgotPassword}>Esqueci minha senha?</Link>
+          <div className={styles.captcha}>[Captcha aqui]</div>
+          <button type="submit" className={styles.loginButton}>Entrar</button>
+        </form>
+        <p className={styles.registerText}>
+          Não tem uma conta? <Link href="/register">Cadastre-se</Link>
+        </p>
       </div>
     </div>
   );
-};
-
-export default Login;
+}
