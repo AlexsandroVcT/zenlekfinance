@@ -51,7 +51,6 @@ export default function Register() {
 
       if (response.ok) {
         console.log('Cadastro realizado com sucesso:', data);
-        // Redirecionar ou exibir mensagem de sucesso
       } else {
         console.log('Erro no cadastro:', data.message);
       }

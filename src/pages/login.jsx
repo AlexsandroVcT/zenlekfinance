@@ -7,7 +7,6 @@ import Link from 'next/link';
 export default function Login() {
   const router = useRouter();
   
-  // Estados para CPF e Senha
   const [cpf, setCpf] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -35,11 +34,8 @@ export default function Login() {
       const data = await response.json();
 
       if (response.ok) {
-        // Armazena o token de autenticação ou redireciona para o dashboard
         console.log('Login realizado com sucesso:', data);
-        // Armazenar o token em localStorage ou cookies, conforme necessário
         localStorage.setItem('token', data.token);
-        // Redireciona o usuário para o dashboard ou home
         router.push('/dashboard');
       } else {
         setErrorMessage(data.message || 'Erro ao realizar login.');
